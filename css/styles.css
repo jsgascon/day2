@@ -132,3 +132,20 @@ body {
   padding: 25px;
   text-align: center;
 }
+
+@media only screen and (min-width: 375px) {
+  .navigation {
+    background-color: green;
+  }
+  .navi_section {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navigation {
+    background-color: yellow;
+  }
+  .navi_section {
+    background-color: orange;
+  }
+}
